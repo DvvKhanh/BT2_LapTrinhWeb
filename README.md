@@ -91,8 +91,8 @@
 
 ### Bước 4: Cấu hình file: D:\Apache24\conf\httpd.conf
     + Mở file: D:\Apache24\conf\httpd.conf
-    + Sau mở httpd.conf -> tìm dòng: #LoadModule vhost_alias_module modules/mod_vhost_alias.so và bỏ dấu # ở đầu để bật module virtual host.
-    + Tìm tiếp dòng:#Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
+    + Sửa ServerRoot: ServerRoot "c:/Apache24" => ServerRoot "D:/Apache24"
+    + Sau mở httpd.conf -> Tìm dòng:#Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
 
 ### Bước 5: Cấu hình file: D:Apache24\conf\extra\httpd-vhosts.conf
     + Mở file: D:Apache24\conf\extra\httpd-vhosts.conf
@@ -106,7 +106,7 @@
     ServerAdmin admin@dauvankhanh.com
     DocumentRoot "D:/Apache24/dauvankhanh"
     ServerName dauvankhanh.com
-    ServerAlias www.dummy-host.example.com
+    ServerAlias www.dauvankhanh.com
     ErrorLog "logs/dauvankhanh-error.log"
     CustomLog "logs/dauvankhanh-access.log" common
 </VirtualHost>
@@ -116,14 +116,27 @@
 - Trong đó tạo file index.html:
 ```
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>Website của Đỗ Duy Cốp</title>
+    <meta charset="UTF-8">
+    <title>Website cá nhân Đậu Văn Khánh</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #fafafa;
+            text-align: center;
+            margin-top: 15%;
+        }
+        h1 {
+            color: #222;
+        }
+    </style>
 </head>
 <body>
-    <h1>Xin chào! Đây là trang doduycop.com chạy trên Apache.</h1>
+    <h1>Xin chào! Đây là trang <strong>dauvankhanh.com</strong> chạy trên Apache.</h1>
 </body>
 </html>
+
 ```
 ### Bước 7: Cấu hình file hosts để fake domain
 
@@ -134,10 +147,13 @@
 
 ### Bước 8: Cài đặt và khởi động Apache
 
-- Mở CMD Run as Administrator, rồi chạy:
-```cd D:\Apache24\bin
+- Mở cmd Run as Administrator, rồi chạy:
+```
+cd D:\Apache24\bin
 httpd.exe -k install
-httpd.exe -k start```
+httpd.exe -k start
+```
+<img width="1098" height="627" alt="image" src="https://github.com/user-attachments/assets/e6a02ca5-ae63-4f31-a171-c4d1551938a9" />
 
 
 
