@@ -157,6 +157,12 @@ httpd.exe -k start
 ```
 <img width="1099" height="636" alt="image" src="https://github.com/user-attachments/assets/1ddae8c8-1a3a-40fc-bac5-05ac7f253b19" />
 
+### Bước 9: Kiểm tra kết quả
+
+- Mở trình duyệt, gõ: http://dauvankhanh.com
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2bdf758d-e0bc-4b80-8128-8273dce853b1" />
+
 
 
 
