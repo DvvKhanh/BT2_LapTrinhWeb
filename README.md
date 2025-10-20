@@ -92,7 +92,7 @@
 ### Bước 4: Cấu hình file: D:\Apache24\conf\httpd.conf
     + Mở file: D:\Apache24\conf\httpd.conf
     + Sửa ServerRoot: ServerRoot "c:/Apache24" => ServerRoot "D:/Apache24"
-    + Sau mở httpd.conf -> Tìm dòng:#Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
+    + Sau mở httpd.conf -> Tìm dòng: #Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
 
 ### Bước 5: Cấu hình file: D:Apache24\conf\extra\httpd-vhosts.conf
     + Mở file: D:Apache24\conf\extra\httpd-vhosts.conf
@@ -111,6 +111,8 @@
     CustomLog "logs/dauvankhanh-access.log" common
 </VirtualHost>
 ```
+- Trong file D:\Apache24\conf\httpd.conf sửa: DocumentRoot "D:/Apache24/dauvankhanh" và <Directory "D:/Apache24/dauvankhanh">
+
 ### Bước 6: Tạo thư mục D:\Apache24\dauvankhanh
 
 - Trong đó tạo file index.html:
