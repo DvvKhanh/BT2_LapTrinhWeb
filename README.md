@@ -74,4 +74,5 @@
 
 - Nhấn Start → gõ cmd -> Chuột phải vào Command Prompt → chọn Run as administrator -> Sau đó nhập lênh: iisreset /stop
 
-<img width="1089" height="633" alt="image" src="https://github.com/user-attachments/assets/fb727f1a-026f-433b-adf2-df6f2851812e" />
+<img width="1100" height="634" alt="image" src="https://github.com/user-attachments/assets/78dd458f-502d-4a79-9567-49d4a3845c09" />
+
