@@ -151,11 +151,12 @@
 
 - Mở cmd Run as Administrator, rồi chạy:
 ```
-cd D:\Apache24\bin
+cd /d D:\Apache24\bin
 httpd.exe -k install
 httpd.exe -k start
 ```
-<img width="1098" height="627" alt="image" src="https://github.com/user-attachments/assets/e6a02ca5-ae63-4f31-a171-c4d1551938a9" />
+<img width="1099" height="636" alt="image" src="https://github.com/user-attachments/assets/1ddae8c8-1a3a-40fc-bac5-05ac7f253b19" />
+
 
 
 
