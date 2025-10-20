@@ -79,4 +79,6 @@
 ### 1.2. Download apache server
 
 - Truy cập link: https://www.apachelounge.com/download/ để download apache
-- Sau khi tải xong sẽ xuất hiện tệp: <img width="767" height="38" alt="Screenshot 2025-10-20 200921" src="https://github.com/user-attachments/assets/fe4bacff-09ef-4456-bcb6-a3f0acc64589" />
+- Sau khi tải xong sẽ xuất hiện tệp:
+
+<img width="767" height="38" alt="Screenshot 2025-10-20 200921" src="https://github.com/user-attachments/assets/fe4bacff-09ef-4456-bcb6-a3f0acc64589" />
