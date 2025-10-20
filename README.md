@@ -76,3 +76,7 @@
 
 <img width="1100" height="634" alt="image" src="https://github.com/user-attachments/assets/78dd458f-502d-4a79-9567-49d4a3845c09" />
 
+### 1.2. Download apache server
+
+- Truy cập link: https://www.apachelounge.com/download/ để download apache
+- Sau khi tải xong sẽ xuất hiện tệp: <img width="767" height="38" alt="Screenshot 2025-10-20 200921" src="https://github.com/user-attachments/assets/fe4bacff-09ef-4456-bcb6-a3f0acc64589" />
