@@ -67,3 +67,11 @@
 - đã hiểu quá trình cài đặt các phần mềm và các thư viện như nào?
 - đã hiểu cách sử dụng nodered để tạo api back-end như nào?
 - đã hiểu cách frond-end tương tác với back-end ra sao?
+
+# BÀI LÀM:
+## 1. Cài đặt Apache web server:
+### 1.1. Vô hiệu hoá IIS
+
+- Nhấn Start → gõ cmd -> Chuột phải vào Command Prompt → chọn Run as administrator -> Sau đó nhập lênh: iisreset /stop
+
+<img width="1089" height="633" alt="image" src="https://github.com/user-attachments/assets/fb727f1a-026f-433b-adf2-df6f2851812e" />
