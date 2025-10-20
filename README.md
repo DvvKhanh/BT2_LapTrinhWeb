@@ -21,7 +21,7 @@
     giải nén được file nssm.exe
     copy nssm.exe vào thư mục `D:\nodejs\nodered\`
   + tạo file "D:\nodejs\nodered\run-nodered.cmd" với nội dung (5 dòng sau):
-@echo off
+      + @echo off
 REM fix path
 set PATH=D:\nodejs;%PATH%
 REM Run Node-RED
