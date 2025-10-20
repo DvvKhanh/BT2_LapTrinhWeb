@@ -88,3 +88,24 @@
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a4646b6e-6bd9-490a-860f-5e495d171041" />
 
+- Cấu hình file: D:\Apache24\conf\httpd.conf
+    + Mở file: D:\Apache24\conf\httpd.conf
+    + Sau mở httpd.conf -> tìm dòng: #LoadModule vhost_alias_module modules/mod_vhost_alias.so và bỏ dấu # ở đầu để bật module virtual host.
+    + Tìm tiếp dòng:#Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
+
+- Cấu hình file: D:Apache24\conf\extra\httpd-vhosts.conf
+    + Mở file: D:Apache24\conf\extra\httpd-vhosts.conf
+    + Sau khi mở file sẽ hiển thị:
+
+  <img width="845" height="989" alt="image" src="https://github.com/user-attachments/assets/3b29fea0-fd94-408c-b480-331e452e287a" />
+
+- Thêm vào cuối file nội dung sau:
+<VirtualHost *:80>
+    ServerAdmin admin@dauvankhanh.com
+    DocumentRoot "D:/Apache24/dauvankhanh"
+    ServerName dauvankhanh.com
+    ServerAlias www.dummy-host.example.com
+    ErrorLog "logs/dauvankhanh-error.log"
+    CustomLog "logs/dauvankhanh-access.log" common
+</VirtualHost>
+
