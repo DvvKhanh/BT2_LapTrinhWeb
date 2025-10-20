@@ -176,4 +176,25 @@ httpd.exe -k start
 ```  D:
 cd \nodejs
 node -v
-npm -v ```
+npm -v
+```
+<img width="1099" height="634" alt="image" src="https://github.com/user-attachments/assets/0b49d2b5-76b2-4fde-96c6-ef45030d5fc7" />
+
+### 2.2. Cài đặt nodered
+- Chạy cmd (Admin), vào thư mục `D:\nodejs`, chạy lệnh `npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered"`
+- Sau khi chạy cmd, kết quả nodered hiển thị trong thư mục D:\nodejs
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/88c1864f-f698-4307-9f1d-9172b551f675" />
+
+- Cài nssm: https://nssm.cc/release/nssm-2.24.zip.
+- Tạo file "D:\nodejs\nodered\run-nodered.cmd"
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0ca1d6ee-402c-40d0-b8f3-eaefd1623a4d" />
+
+- Cài service a1-nodered bằng nssm
+  + Mở cmd (Admin), chuyển đến thư mục nodered: cd /d D:\nodejs\nodered
+  + Cài đặt service "a1-nodered" bằng lệnh: nssm.exe install a1-nodered "D:\nodejs\nodered\run-nodered.cmd
+ 
+  <img width="1102" height="635" alt="image" src="https://github.com/user-attachments/assets/5202005f-cbed-4286-a5f9-ecd1bca25a15" />
+
+- chạy service "a1-nodered" bằng lệnh: nssm start a1-nodered
