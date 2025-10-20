@@ -70,30 +70,31 @@
 
 # BÀI LÀM:
 ## 1. Cài đặt Apache web server:
-### 1.1. Vô hiệu hoá IIS
+### Bước 1: Vô hiệu hoá IIS
 
 - Nhấn Start → gõ cmd -> Chuột phải vào Command Prompt → chọn Run as administrator -> Sau đó nhập lênh: iisreset /stop
 
 <img width="1100" height="634" alt="image" src="https://github.com/user-attachments/assets/78dd458f-502d-4a79-9567-49d4a3845c09" />
 
-### 1.2. Download apache server
+### Bước 2. Download apache server
 
 - Truy cập link: https://www.apachelounge.com/download/ để download apache
 - Sau khi tải xong sẽ xuất hiện tệp:
 
 <img width="767" height="38" alt="Screenshot 2025-10-20 200921" src="https://github.com/user-attachments/assets/fe4bacff-09ef-4456-bcb6-a3f0acc64589" />
 
-- Giải nén ra ổ D: chuột phải vào file vừa tải -> chọn Extract All... -> Chọn nơi muốn giải nén: D:\ -> Nhấn Extract
+### Bước 3: Giải nén ra ổ D: 
+- Chuột phải vào file vừa tải -> chọn Extract All... -> Chọn nơi muốn giải nén: D:\ -> Nhấn Extract
 - Sau khi giải nén xong, sẽ hiện thư mục: D:\Apache24\
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a4646b6e-6bd9-490a-860f-5e495d171041" />
 
-- Cấu hình file: D:\Apache24\conf\httpd.conf
+### Bước 4: Cấu hình file: D:\Apache24\conf\httpd.conf
     + Mở file: D:\Apache24\conf\httpd.conf
     + Sau mở httpd.conf -> tìm dòng: #LoadModule vhost_alias_module modules/mod_vhost_alias.so và bỏ dấu # ở đầu để bật module virtual host.
     + Tìm tiếp dòng:#Include conf/extra/httpd-vhosts.conf và bỏ dấu # để bật file vhosts.
 
-- Cấu hình file: D:Apache24\conf\extra\httpd-vhosts.conf
+### Bước 5: Cấu hình file: D:Apache24\conf\extra\httpd-vhosts.conf
     + Mở file: D:Apache24\conf\extra\httpd-vhosts.conf
     + Sau khi mở file sẽ hiển thị:
 
@@ -110,3 +111,33 @@
     CustomLog "logs/dauvankhanh-access.log" common
 </VirtualHost>
 ```
+### Bước 6: Tạo thư mục D:\Apache24\dauvankhanh
+
+- Trong đó tạo file index.html:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website của Đỗ Duy Cốp</title>
+</head>
+<body>
+    <h1>Xin chào! Đây là trang doduycop.com chạy trên Apache.</h1>
+</body>
+</html>
+```
+### Bước 7: Cấu hình file hosts để fake domain
+
+- Mở file: C:\Windows\System32\drivers\etc\hosts (Mở bằng Notepad quyền Admin (Run as Administrator))
+- Sau khi mở, thêm dòng: 127.0.0.1 dauvankhanh.com
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/119be395-4297-42b5-8df0-4caa7dd92bc4" />
+
+### Bước 8: Cài đặt và khởi động Apache
+
+- Mở CMD Run as Administrator, rồi chạy:
+```cd D:\Apache24\bin
+httpd.exe -k install
+httpd.exe -k start```
+
+
+
