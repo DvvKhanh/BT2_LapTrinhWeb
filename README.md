@@ -149,7 +149,7 @@
 
 ### Bước 8: Cài đặt và khởi động Apache
 
-- Mở cmd Run as Administrator, rồi chạy:
+- Mở cmd -> chạy quyền admin (Run as Administrator), rồi chạy:
 ```
 cd /d D:\Apache24\bin
 httpd.exe -k install
