@@ -163,6 +163,17 @@ httpd.exe -k start
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2bdf758d-e0bc-4b80-8128-8273dce853b1" />
 
-
-
-
+## 2. Cài đặt nodejs và nodered => Dùng làm backend
+### 2.1. Cài đặt nodejs
+- Tải file: https://nodejs.org/dist/v20.19.5/node-v20.19.5-x64.msi
+- Cài đặt bằng giao diện (GUI):
+  + Nhấn file: node-v20.19.5-x64.msi
+  + Chọn Next → I Agree → Custom.
+  + Ở phần chọn đường dẫn, đổi thành: D:\nodejs
+  + Bấm Next → Install.
+  + Khi hoàn tất, Node.js sẽ được cài vào D:\nodejs và npm đi kèm.
+- Kiểm tra: Mở cmd(admin) và chạy:
+```  D:
+cd \nodejs
+node -v
+npm -v ```
