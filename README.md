@@ -100,6 +100,7 @@
   <img width="845" height="989" alt="image" src="https://github.com/user-attachments/assets/3b29fea0-fd94-408c-b480-331e452e287a" />
 
 - Thêm vào cuối file nội dung sau:
+```
 <VirtualHost *:80>
     ServerAdmin admin@dauvankhanh.com
     DocumentRoot "D:/Apache24/dauvankhanh"
@@ -108,4 +109,4 @@
     ErrorLog "logs/dauvankhanh-error.log"
     CustomLog "logs/dauvankhanh-access.log" common
 </VirtualHost>
-
+```
