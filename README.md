@@ -82,3 +82,9 @@
 - Sau khi tải xong sẽ xuất hiện tệp:
 
 <img width="767" height="38" alt="Screenshot 2025-10-20 200921" src="https://github.com/user-attachments/assets/fe4bacff-09ef-4456-bcb6-a3f0acc64589" />
+
+- Giải nén ra ổ D: chuột phải vào file vừa tải -> chọn Extract All... -> Chọn nơi muốn giải nén: D:\ -> Nhấn Extract
+- Sau khi giải nén xong, sẽ hiện thư mục: D:\Apache24\
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a4646b6e-6bd9-490a-860f-5e495d171041" />
+
