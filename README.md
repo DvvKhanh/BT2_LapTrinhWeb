@@ -256,6 +256,8 @@ npm -v
 
 <img width="724" height="342" alt="image" src="https://github.com/user-attachments/assets/d14ac04a-c089-4ae5-a11b-e7decebc61a9" />
 
+- Mã hoá mật khẩu có thể thiết lập bằng tool: https://tms.tnut.edu.vn/pw.php
+
 - Chạy lại nodered bằng cách: mở cmd (quyền Admin), vào thư mục 'D:\nodejs\nodered' và chạy lệnh 'nssm restart a1-nodered'
 
 <img width="1098" height="633" alt="image" src="https://github.com/user-attachments/assets/5a507937-5792-4197-ad98-ad5e5bb08a06" />
@@ -263,3 +265,19 @@ npm -v
 - Nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://dauvankhanh.com:1880
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f9b82426-4952-4d88-88d3-043558fdbe1d" />
+
+### 2.5. Tạo api back-end bằng nodered
+
+- logic flow sẽ gồm 4 node theo thứ tự sau (thứ tự nối dây):
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/21aa8f8f-0890-4e6c-b751-ffeff8fda3e2" />
+
+- Test api thông qua trình duyệt: http://dauvankhanh.com:1880/timkiem?q=thị
+
+<img width="726" height="348" alt="image" src="https://github.com/user-attachments/assets/de0c3f66-b3da-4c58-b2c0-382cd0213cc3" />
+
+- Test api thông qua trình duyệt: http://dauvankhanh.com:1880/timkiem?q=Khánh
+
+<img width="696" height="325" alt="image" src="https://github.com/user-attachments/assets/c44e8d2d-6dc4-4352-a25b-6de0cbfd5a70" />
+
+### 2.6.
