@@ -221,4 +221,32 @@ npm -v
 
 <img width="766" height="504" alt="image" src="https://github.com/user-attachments/assets/31504a9c-aa6a-43e6-b47b-1388de7f7833" />
 
-### 2.4. 
+### 2.4. Cài đặt thư viện trên nodered:
+- Truy cập giao diện nodered bằng url: http://dauvankhanh.com:1880
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/837a5700-5dfa-49f1-a8b4-fafabcbee3d2" />
+
+- Cài đặt thư viện:
+  + node-red-contrib-mssql-plus
+
+<img width="892" height="384" alt="image" src="https://github.com/user-attachments/assets/72814d33-1659-417a-b490-fc54b68c280f" />
+
+  + node-red-node-mysql
+
+<img width="886" height="360" alt="image" src="https://github.com/user-attachments/assets/13574932-2818-4d30-842f-fafdfc2dd944" />
+
+  + node-red-contrib-moment
+
+<img width="881" height="387" alt="image" src="https://github.com/user-attachments/assets/1246304c-1849-47f6-98e3-a2784df3c7e2" />
+
+  + node-red-contrib-influxdb
+
+<img width="886" height="357" alt="image" src="https://github.com/user-attachments/assets/d1f185cb-ef60-41f8-83c8-de910f189c58" />
+
+  + node-red-contrib-duckdns
+
+<img width="889" height="360" alt="Screenshot 2025-10-21 224022" src="https://github.com/user-attachments/assets/b9504f48-dab2-41ac-97dc-09ffed8e8c4f" />
+
+  + node-red-contrib-cron-plus
+
+<img width="885" height="389" alt="image" src="https://github.com/user-attachments/assets/cf5a4cbe-c5ab-4b94-a541-e5b3d4fdee78" />
