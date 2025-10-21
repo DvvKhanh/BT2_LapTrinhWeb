@@ -226,6 +226,7 @@ npm -v
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/837a5700-5dfa-49f1-a8b4-fafabcbee3d2" />
 
+- Trong giao diện Nodered: Vào Menu (≡ góc phải trên) -> chọn Manage palette -> Chọn tab Install -> Gõ lần lượt các thư viện và nhấn Install cho từng cái
 - Cài đặt thư viện:
   + node-red-contrib-mssql-plus
 
