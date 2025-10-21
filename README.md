@@ -198,3 +198,27 @@ npm -v
   <img width="1102" height="635" alt="image" src="https://github.com/user-attachments/assets/5202005f-cbed-4286-a5f9-ecd1bca25a15" />
 
 - chạy service "a1-nodered" bằng lệnh: nssm start a1-nodered
+
+### 2.3. Tạo csdl tuỳ ý trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name
+
+- Tạo username, password:
+
+<img width="716" height="388" alt="image" src="https://github.com/user-attachments/assets/8b816942-15a8-43ef-8a05-4c7dc4bff8b1" />
+
+- IP:
+
+<img width="1475" height="752" alt="image" src="https://github.com/user-attachments/assets/aad08989-5faf-41e0-a874-d2846423cd48" />
+
+- Port:
+
+<img width="1384" height="886" alt="image" src="https://github.com/user-attachments/assets/39daa564-c705-4b37-821f-1a56f33a32ce" />
+
+- Tạo DB_DauVanKhanh:
+
+<img width="651" height="341" alt="image" src="https://github.com/user-attachments/assets/211b3968-ec2e-461a-902e-eed0e31e4be7" />
+
+- Tạo table_KhachHang:
+
+<img width="766" height="504" alt="image" src="https://github.com/user-attachments/assets/31504a9c-aa6a-43e6-b47b-1388de7f7833" />
+
+### 2.4. 
