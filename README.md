@@ -259,3 +259,7 @@ npm -v
 - Chạy lại nodered bằng cách: mở cmd (quyền Admin), vào thư mục 'D:\nodejs\nodered' và chạy lệnh 'nssm restart a1-nodered'
 
 <img width="1098" height="633" alt="image" src="https://github.com/user-attachments/assets/5a507937-5792-4197-ad98-ad5e5bb08a06" />
+
+- Nodered sẽ yêu cầu nhập mật khẩu mới vào được giao diện cho admin tại: http://dauvankhanh.com:1880
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f9b82426-4952-4d88-88d3-043558fdbe1d" />
