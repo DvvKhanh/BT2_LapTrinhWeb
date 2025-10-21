@@ -251,3 +251,11 @@ npm -v
   + node-red-contrib-cron-plus
 
 <img width="885" height="389" alt="image" src="https://github.com/user-attachments/assets/cf5a4cbe-c5ab-4b94-a541-e5b3d4fdee78" />
+
+- Sửa file "D:\nodejs\nodered\work\settings.js":
+
+<img width="724" height="342" alt="image" src="https://github.com/user-attachments/assets/d14ac04a-c089-4ae5-a11b-e7decebc61a9" />
+
+- Chạy lại nodered bằng cách: mở cmd (quyền Admin), vào thư mục 'D:\nodejs\nodered' và chạy lệnh 'nssm restart a1-nodered'
+
+<img width="1098" height="633" alt="image" src="https://github.com/user-attachments/assets/5a507937-5792-4197-ad98-ad5e5bb08a06" />
