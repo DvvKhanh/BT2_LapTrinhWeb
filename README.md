@@ -228,6 +228,7 @@ npm -v
 
 - Trong giao diện Nodered: Vào Menu (≡ góc phải trên) -> chọn Manage palette -> Chọn tab Install -> Gõ lần lượt các thư viện và nhấn Install cho từng cái
 - Cài đặt thư viện:
+
   + node-red-contrib-mssql-plus
 
 <img width="892" height="384" alt="image" src="https://github.com/user-attachments/assets/72814d33-1659-417a-b490-fc54b68c280f" />
@@ -278,6 +279,6 @@ npm -v
 
 - Test api thông qua trình duyệt: http://dauvankhanh.com:1880/timkiem?q=Khánh
 
-<img width="696" height="325" alt="image" src="https://github.com/user-attachments/assets/c44e8d2d-6dc4-4352-a25b-6de0cbfd5a70" />
+<img width="722" height="367" alt="image" src="https://github.com/user-attachments/assets/7273bca2-1118-4d68-96ba-aa43982a298c" />
 
 ### 2.6.
