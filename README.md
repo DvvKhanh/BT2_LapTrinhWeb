@@ -281,4 +281,21 @@ npm -v
 
 <img width="722" height="367" alt="image" src="https://github.com/user-attachments/assets/7273bca2-1118-4d68-96ba-aa43982a298c" />
 
-### 2.6.
+### 2.6. Tạo giao diện front-end
+
+- Tạo file index.html:
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7153cc23-dc3e-42c3-9d14-6d9947aab312" />
+
+- Tạo file dauvankhanh.js:
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cde5fbba-9afb-4c98-9ae0-9017803e5523" />
+
+- Tạo file dauvankhanh.css:
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2f0d3018-b513-4aee-b53a-8982323d7b12" />
+
+- Kết quả tìm kiếm:
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cd905fd0-a5b1-4c64-87b6-b1009144a56e" />
+
