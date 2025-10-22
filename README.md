@@ -199,7 +199,7 @@ npm -v
 
 - chạy service "a1-nodered" bằng lệnh: nssm start a1-nodered
 
-### 2.3. Tạo csdl tuỳ ý trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name
+### 3. Tạo csdl tuỳ ý trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name
 
 - Tạo username, password:
 
@@ -221,7 +221,7 @@ npm -v
 
 <img width="766" height="504" alt="image" src="https://github.com/user-attachments/assets/31504a9c-aa6a-43e6-b47b-1388de7f7833" />
 
-### 2.4. Cài đặt thư viện trên nodered:
+### 4. Cài đặt thư viện trên nodered:
 - Truy cập giao diện nodered bằng url: http://dauvankhanh.com:1880
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/837a5700-5dfa-49f1-a8b4-fafabcbee3d2" />
@@ -267,7 +267,7 @@ npm -v
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f9b82426-4952-4d88-88d3-043558fdbe1d" />
 
-### 2.5. Tạo api back-end bằng nodered
+### 5. Tạo api back-end bằng nodered
 
 - logic flow sẽ gồm 4 node theo thứ tự sau (thứ tự nối dây):
 
@@ -281,7 +281,7 @@ npm -v
 
 <img width="722" height="367" alt="image" src="https://github.com/user-attachments/assets/7273bca2-1118-4d68-96ba-aa43982a298c" />
 
-### 2.6. Tạo giao diện front-end
+### 6. Tạo giao diện front-end
 
 - Tạo file index.html:
 
@@ -297,5 +297,25 @@ npm -v
 
 - Kết quả tìm kiếm:
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cd905fd0-a5b1-4c64-87b6-b1009144a56e" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/0c6607f7-2cea-4e53-81b3-1c47864be764" />
 
+### 7. Nhận xét bài làm:
+
+### 7.1. Hiểu quá trình cài đặt phần mềm và thư viện
+  + Biết cách cài Apache trên Windows từ bản ZIP (giải nén) và chỉnh httpd.conf/httpd-vhosts.conf.
+  + Hiểu ServerRoot / DocumentRoot và cách ánh xạ domain nội bộ qua file hosts.
+  + Biết cách cài Node.js và Node-RED, cách cài Node-RED global vào thư mục tùy chỉnh.
+  + Biết dùng nssm để chạy Node-RED như một Windows Service (start/stop/restart).
+  + Biết cài thêm package vào Node-RED qua Manage Palette.
+
+### 7.2. Hiểu cách sử dụng Node-RED để tạo API backend
+  + Biết luồng dữ liệu trong Node-RED: http in → xử lý → database → http response.
+  + Biết cách viết Function nodes để chuẩn bị SQL (chi tiết: msg.topic, msg.params) và để format response (set msg.headers, msg.statusCode).
+  + Biết cách cấu hình MSSQL node (server, port, database, user/pass), và cách debug kết quả bằng Debug node.
+  + Biết tạo endpoints REST đơn giản (GET) và xử lý query string (msg.req.query).
+
+### 7.3. Hiểu cách front-end tương tác với back-end
+  + Hiểu nguyên lý: frontend gửi HTTP request (GET/POST) tới API, nhận JSON, xử lý DOM để hiển thị.
+  + Biết sử dụng fetch() với encodeURIComponent để gửi tham số, xử lý mã lỗi (response.ok), hiển thị spinner, xử lý trường hợp không có kết quả.
+  + Biết xử lý CORS (nếu gọi từ host khác) — trong Node-RED đã set header Access-Control-Allow-Origin: * để test nội bộ.
+  + Hiểu tách trách nhiệm: backend trả dữ liệu (JSON), frontend chịu trách nhiệm render và UX.
